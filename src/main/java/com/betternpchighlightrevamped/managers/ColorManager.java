@@ -1,13 +1,13 @@
-package com.betternpchighlight.managers;
+package com.betternpchighlightrevamped.managers;
 
 import java.awt.Color;
 import java.util.Random;
 
 import javax.inject.Inject;
 
-import com.betternpchighlight.BetterNpcHighlightConfig;
-import com.betternpchighlight.data.NPCInfo;
-import com.betternpchighlight.data.NameAndIdContainer;
+import com.betternpchighlightrevamped.BetterNpcHighlightConfig;
+import com.betternpchighlightrevamped.data.NPCInfo;
+import com.betternpchighlightrevamped.data.NameAndIdContainer;
 
 import net.runelite.api.Client;
 import net.runelite.client.util.WildcardMatcher;
@@ -87,6 +87,36 @@ public class ColorManager {
       return config.presetColor4();
     case "5":
       return config.presetColor5();
+    case "6":
+      return config.presetColor6();
+    case "7":
+      return config.presetColor7();
+    case "8":
+      return config.presetColor8();
+    case "9":
+      return config.presetColor9();
+    case "10":
+      return config.presetColor10();
+    case "11":
+      return config.presetColor11();
+    case "12":
+      return config.presetColor12();
+    case "13":
+      return config.presetColor13();
+    case "14":
+      return config.presetColor14();
+    case "15":
+      return config.presetColor15();
+    case "16":
+      return config.presetColor16();
+    case "17":
+      return config.presetColor17();
+    case "18":
+      return config.presetColor18();
+    case "19":
+      return config.presetColor19();
+    case "20":
+      return config.presetColor20();
     }
 
     return color;
@@ -109,6 +139,36 @@ public class ColorManager {
       return config.presetFillColor4();
     case "5":
       return config.presetFillColor5();
+    case "6":
+      return config.presetFillColor6();
+    case "7":
+      return config.presetFillColor7();
+    case "8":
+      return config.presetFillColor8();
+    case "9":
+      return config.presetFillColor9();
+    case "10":
+      return config.presetFillColor10();
+    case "11":
+      return config.presetFillColor11();
+    case "12":
+      return config.presetFillColor12();
+    case "13":
+      return config.presetFillColor13();
+    case "14":
+      return config.presetFillColor14();
+    case "15":
+      return config.presetFillColor15();
+    case "16":
+      return config.presetFillColor16();
+    case "17":
+      return config.presetFillColor17();
+    case "18":
+      return config.presetFillColor18();
+    case "19":
+      return config.presetFillColor19();
+    case "20":
+      return config.presetFillColor20();
     }
 
     return color;

@@ -1,10 +1,10 @@
-package com.betternpchighlight.managers;
+package com.betternpchighlightrevamped.managers;
 
 import java.util.Optional;
 
 import javax.inject.Inject;
 
-import com.betternpchighlight.BetterNpcHighlightConfig;
+import com.betternpchighlightrevamped.BetterNpcHighlightConfig;
 
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.plugins.Plugin;

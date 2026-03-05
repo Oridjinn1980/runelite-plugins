@@ -1,4 +1,4 @@
-package com.betternpchighlight.data;
+package com.betternpchighlightrevamped.data;
 
 import lombok.Getter;
 import net.runelite.api.NPC;

@@ -1,15 +1,15 @@
-package com.betternpchighlight.managers;
+package com.betternpchighlightrevamped.managers;
 
 import java.awt.Color;
 import java.util.ArrayList;
 import javax.inject.Inject;
 import org.apache.commons.lang3.StringUtils;
 
-import com.betternpchighlight.BetterNpcHighlightConfig;
-import com.betternpchighlight.BetterNpcHighlightPlugin;
-import com.betternpchighlight.data.HighlightColor;
-import com.betternpchighlight.data.NPCInfo;
-import com.betternpchighlight.data.NameAndIdContainer;
+import com.betternpchighlightrevamped.BetterNpcHighlightConfig;
+import com.betternpchighlightrevamped.BetterNpcHighlightPlugin;
+import com.betternpchighlightrevamped.data.HighlightColor;
+import com.betternpchighlightrevamped.data.NPCInfo;
+import com.betternpchighlightrevamped.data.NameAndIdContainer;
 
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
@@ -216,6 +216,36 @@ public class ConfigTransformManager {
 		case "presetFillColor4":
 		case "presetColor5":
 		case "presetFillColor5":
+		case "presetColor6":
+		case "presetFillColor6":
+		case "presetColor7":
+		case "presetFillColor7":
+		case "presetColor8":
+		case "presetFillColor8":
+		case "presetColor9":
+		case "presetFillColor9":
+		case "presetColor10":
+		case "presetFillColor10":
+		case "presetColor11":
+		case "presetFillColor11":
+		case "presetColor12":
+		case "presetFillColor12":
+		case "presetColor13":
+		case "presetFillColor13":
+		case "presetColor14":
+		case "presetFillColor14":
+		case "presetColor15":
+		case "presetFillColor15":
+		case "presetColor16":
+		case "presetFillColor16":
+		case "presetColor17":
+		case "presetFillColor17":
+		case "presetColor18":
+		case "presetFillColor18":
+		case "presetColor19":
+		case "presetFillColor19":
+		case "presetColor20":
+		case "presetFillColor20":
 		case "useGlobalTileColor":
 		case "globalTileColor":
 		case "globalFillColor":

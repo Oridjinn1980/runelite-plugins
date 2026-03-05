@@ -1,4 +1,4 @@
-package com.betternpchighlight.managers;
+package com.betternpchighlightrevamped.managers;
 
 import java.awt.event.KeyEvent;
 
@@ -6,8 +6,8 @@ import javax.inject.Inject;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.betternpchighlight.BetterNpcHighlightConfig;
-import com.betternpchighlight.data.NameAndIdContainer;
+import com.betternpchighlightrevamped.BetterNpcHighlightConfig;
+import com.betternpchighlightrevamped.data.NameAndIdContainer;
 import com.google.inject.Singleton;
 
 import net.runelite.api.ChatMessageType;

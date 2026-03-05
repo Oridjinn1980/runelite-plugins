@@ -1,4 +1,4 @@
-package com.betternpchighlight.data;
+package com.betternpchighlightrevamped.data;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,10 +6,10 @@ import net.runelite.api.NPC;
 import net.runelite.client.plugins.slayer.SlayerPluginService;
 import java.awt.Color;
 
-import com.betternpchighlight.BetterNpcHighlightConfig;
-import com.betternpchighlight.BetterNpcHighlightPlugin;
-import com.betternpchighlight.managers.ConfigTransformManager;
-import com.betternpchighlight.managers.SlayerPluginManager;
+import com.betternpchighlightrevamped.BetterNpcHighlightConfig;
+import com.betternpchighlightrevamped.BetterNpcHighlightPlugin;
+import com.betternpchighlightrevamped.managers.ConfigTransformManager;
+import com.betternpchighlightrevamped.managers.SlayerPluginManager;
 
 @Getter
 @Setter

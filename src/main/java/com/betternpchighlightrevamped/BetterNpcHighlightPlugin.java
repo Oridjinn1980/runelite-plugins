@@ -22,17 +22,17 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.betternpchighlight;
+package com.betternpchighlightrevamped;
 
-import com.betternpchighlight.data.NPCInfo;
-import com.betternpchighlight.data.NameAndIdContainer;
-import com.betternpchighlight.data.NpcSpawn;
-import com.betternpchighlight.managers.ChatCommandManager;
-import com.betternpchighlight.managers.ConfigTransformManager;
-import com.betternpchighlight.managers.MenuManager;
-import com.betternpchighlight.managers.SlayerPluginManager;
-import com.betternpchighlight.overlays.BetterNpcHighlightOverlay;
-import com.betternpchighlight.overlays.BetterNpcMinimapOverlay;
+import com.betternpchighlightrevamped.data.NPCInfo;
+import com.betternpchighlightrevamped.data.NameAndIdContainer;
+import com.betternpchighlightrevamped.data.NpcSpawn;
+import com.betternpchighlightrevamped.managers.ChatCommandManager;
+import com.betternpchighlightrevamped.managers.ConfigTransformManager;
+import com.betternpchighlightrevamped.managers.MenuManager;
+import com.betternpchighlightrevamped.managers.SlayerPluginManager;
+import com.betternpchighlightrevamped.overlays.BetterNpcHighlightOverlay;
+import com.betternpchighlightrevamped.overlays.BetterNpcMinimapOverlay;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.inject.Provides;
 import lombok.extern.slf4j.Slf4j;
@@ -55,7 +55,7 @@ import java.time.Instant;
 import java.util.Set;
 
 @Slf4j
-@PluginDescriptor(name = "Better NPC Highlight", description = "A more customizable NPC highlight", tags = { "npc", "highlight",
+@PluginDescriptor(name = "Better NPC Highlight Revamped", description = "An EVEN MORE customizable NPC highlight", tags = { "npc", "highlight",
 		"indicators", "respawn", "hide", "entity", "custom", "id", "name" })
 @PluginDependency(SlayerPlugin.class)
 public class BetterNpcHighlightPlugin extends Plugin {

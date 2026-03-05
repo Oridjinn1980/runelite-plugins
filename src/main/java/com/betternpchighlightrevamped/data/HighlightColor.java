@@ -1,4 +1,4 @@
-package com.betternpchighlight.data;
+package com.betternpchighlightrevamped.data;
 
 import java.awt.Color;
 import lombok.AllArgsConstructor;

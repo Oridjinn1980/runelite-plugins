@@ -1,4 +1,4 @@
-package com.betternpchighlight.managers;
+package com.betternpchighlightrevamped.managers;
 
 import static net.runelite.api.MenuAction.MENU_ACTION_DEPRIORITIZE_OFFSET;
 
@@ -12,9 +12,9 @@ import java.util.regex.Pattern;
 
 import javax.inject.Inject;
 
-import com.betternpchighlight.BetterNpcHighlightConfig;
-import com.betternpchighlight.data.NPCInfo;
-import com.betternpchighlight.data.NameAndIdContainer;
+import com.betternpchighlightrevamped.BetterNpcHighlightConfig;
+import com.betternpchighlightrevamped.data.NPCInfo;
+import com.betternpchighlightrevamped.data.NameAndIdContainer;
 import com.google.common.collect.ImmutableSet;
 
 import net.runelite.api.Client;
@@ -299,6 +299,29 @@ public class MenuManager {
       colors.add(config.presetColor3());
       colors.add(config.presetColor4());
       colors.add(config.presetColor5());
+    }
+    else if (amount == BetterNpcHighlightConfig.presetColorAmount.TWENTY)
+    {
+      colors.add(config.presetColor1());
+      colors.add(config.presetColor2());
+      colors.add(config.presetColor3());
+      colors.add(config.presetColor4());
+      colors.add(config.presetColor5());
+      colors.add(config.presetColor6());
+      colors.add(config.presetColor7());
+      colors.add(config.presetColor8());
+      colors.add(config.presetColor9());
+      colors.add(config.presetColor10());
+      colors.add(config.presetColor11());
+      colors.add(config.presetColor12());
+      colors.add(config.presetColor13());
+      colors.add(config.presetColor14());
+      colors.add(config.presetColor15());
+      colors.add(config.presetColor16());
+      colors.add(config.presetColor17());
+      colors.add(config.presetColor18());
+      colors.add(config.presetColor19());
+      colors.add(config.presetColor20());
     }
 
     return colors;

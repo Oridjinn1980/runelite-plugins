@@ -1,4 +1,4 @@
-package com.betternpchighlight.overlays;
+package com.betternpchighlightrevamped.overlays;
 
 import net.runelite.api.NPC;
 import net.runelite.api.NPCComposition;
@@ -6,10 +6,10 @@ import net.runelite.api.Point;
 import net.runelite.client.ui.overlay.*;
 import javax.inject.Inject;
 
-import com.betternpchighlight.BetterNpcHighlightConfig;
-import com.betternpchighlight.data.NPCInfo;
-import com.betternpchighlight.data.NameAndIdContainer;
-import com.betternpchighlight.managers.ColorManager;
+import com.betternpchighlightrevamped.BetterNpcHighlightConfig;
+import com.betternpchighlightrevamped.data.NPCInfo;
+import com.betternpchighlightrevamped.data.NameAndIdContainer;
+import com.betternpchighlightrevamped.managers.ColorManager;
 
 import java.awt.*;
 import net.runelite.client.util.Text;

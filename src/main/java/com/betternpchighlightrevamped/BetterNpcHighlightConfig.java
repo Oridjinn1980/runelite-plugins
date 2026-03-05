@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.betternpchighlight;
+package com.betternpchighlightrevamped;
 
 import java.util.Collections;
 import java.util.Set;
@@ -1533,6 +1533,396 @@ public interface BetterNpcHighlightConfig extends Config
 		return new Color(0, 150, 200, 20);
 	}
 
+	@Alpha
+	@ConfigItem(
+		position = 12,
+		keyName = "presetColor6",
+		name = "Preset Color 6",
+		description = "Sets color for the sixth preset color",
+		section = presetsSection
+	)
+	default Color presetColor6()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 13,
+		keyName = "presetFillColor6",
+		name = "Preset Fill Color 6",
+		description = "Sets the fill color for the sixth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor6()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 14,
+		keyName = "presetColor7",
+		name = "Preset Color 7",
+		description = "Sets color for the seventh preset color",
+		section = presetsSection
+	)
+	default Color presetColor7()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 15,
+		keyName = "presetFillColor7",
+		name = "Preset Fill Color 7",
+		description = "Sets the fill color for the seventh preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor7()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 16,
+		keyName = "presetColor8",
+		name = "Preset Color 8",
+		description = "Sets color for the eighth preset color",
+		section = presetsSection
+	)
+	default Color presetColor8()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 17,
+		keyName = "presetFillColor8",
+		name = "Preset Fill Color 8",
+		description = "Sets the fill color for the eighth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor8()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 18,
+		keyName = "presetColor9",
+		name = "Preset Color 9",
+		description = "Sets color for the ninth preset color",
+		section = presetsSection
+	)
+	default Color presetColor9()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 19,
+		keyName = "presetFillColor9",
+		name = "Preset Fill Color 9",
+		description = "Sets the fill color for the ninth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor9()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 20,
+		keyName = "presetColor10",
+		name = "Preset Color 10",
+		description = "Sets color for the tenth preset color",
+		section = presetsSection
+	)
+	default Color presetColor10()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 21,
+		keyName = "presetFillColor10",
+		name = "Preset Fill Color 10",
+		description = "Sets the fill color for the tenth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor10()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 22,
+		keyName = "presetColor11",
+		name = "Preset Color 11",
+		description = "Sets color for the eleventh preset color",
+		section = presetsSection
+	)
+	default Color presetColor11()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 23,
+		keyName = "presetFillColor11",
+		name = "Preset Fill Color 11",
+		description = "Sets the fill color for the eleventh preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor11()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 24,
+		keyName = "presetColor12",
+		name = "Preset Color 12",
+		description = "Sets color for the twelfth preset color",
+		section = presetsSection
+	)
+	default Color presetColor12()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 25,
+		keyName = "presetFillColor12",
+		name = "Preset Fill Color 12",
+		description = "Sets the fill color for the twelfth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor12()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 26,
+		keyName = "presetColor13",
+		name = "Preset Color 13",
+		description = "Sets color for the thirteenth preset color",
+		section = presetsSection
+	)
+	default Color presetColor13()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 27,
+		keyName = "presetFillColor13",
+		name = "Preset Fill Color 13",
+		description = "Sets the fill color for the thirteenth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor13()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+		@Alpha
+	@ConfigItem(
+		position = 28,
+		keyName = "presetColor14",
+		name = "Preset Color 14",
+		description = "Sets color for the fourteenth preset color",
+		section = presetsSection
+	)
+	default Color presetColor14()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 29,
+		keyName = "presetFillColor14",
+		name = "Preset Fill Color 14",
+		description = "Sets the fill color for the fourteenth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor14()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+		@Alpha
+	@ConfigItem(
+		position = 30,
+		keyName = "presetColor15",
+		name = "Preset Color 15",
+		description = "Sets color for the fifteenth preset color",
+		section = presetsSection
+	)
+	default Color presetColor15()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 31,
+		keyName = "presetFillColor15",
+		name = "Preset Fill Color 15",
+		description = "Sets the fill color for the fifteenth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor15()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+		@Alpha
+	@ConfigItem(
+		position = 32,
+		keyName = "presetColor16",
+		name = "Preset Color 16",
+		description = "Sets color for the sixteenth preset color",
+		section = presetsSection
+	)
+	default Color presetColor16()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 33,
+		keyName = "presetFillColor16",
+		name = "Preset Fill Color 16",
+		description = "Sets the fill color for the sixteenth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor16()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+		@Alpha
+	@ConfigItem(
+		position = 34,
+		keyName = "presetColor17",
+		name = "Preset Color 17",
+		description = "Sets color for the seventeenth preset color",
+		section = presetsSection
+	)
+	default Color presetColor17()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 35,
+		keyName = "presetFillColor17",
+		name = "Preset Fill Color 17",
+		description = "Sets the fill color for the seventeenth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor17()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+		@Alpha
+	@ConfigItem(
+		position = 36,
+		keyName = "presetColor18",
+		name = "Preset Color 18",
+		description = "Sets color for the eighteenth preset color",
+		section = presetsSection
+	)
+	default Color presetColor18()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 37,
+		keyName = "presetFillColor18",
+		name = "Preset Fill Color 18",
+		description = "Sets the fill color for the eighteenth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor18()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+		@Alpha
+	@ConfigItem(
+		position = 38,
+		keyName = "presetColor19",
+		name = "Preset Color 19",
+		description = "Sets color for the nineteenth preset color",
+		section = presetsSection
+	)
+	default Color presetColor19()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 39,
+		keyName = "presetFillColor19",
+		name = "Preset Fill Color 19",
+		description = "Sets the fill color for the nineteenth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor19()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
+		@Alpha
+	@ConfigItem(
+		position = 40,
+		keyName = "presetColor20",
+		name = "Preset Color 20",
+		description = "Sets color for the twentieth preset color",
+		section = presetsSection
+	)
+	default Color presetColor20()
+	{
+		return new Color(0, 150, 200, 255);
+	}
+
+	@Alpha
+	@ConfigItem(
+		position = 41,
+		keyName = "presetFillColor20",
+		name = "Preset Fill Color 20",
+		description = "Sets the fill color for the twentieth preset color",
+		section = presetsSection
+	)
+	default Color presetFillColor20()
+	{
+		return new Color(0, 150, 200, 20);
+	}
+
 	//------------------------------------------------------------//
 	// Instructions Section
 	//------------------------------------------------------------//
@@ -1934,6 +2324,21 @@ public interface BetterNpcHighlightConfig extends Config
 		THREE("Three"),
 		FOUR("Four"),
 		FIVE("Five"),
+		SIX("Six"),
+		SEVEN("Seven"),
+		EIGHT("Eight"),
+		NINE("Nine"),
+		TEN("Ten"),
+		ELEVEN("Eleven"),
+		TWELVE("Twelve"),
+		THIRTEEN("Thirteen"),
+		FOURTEEN("Fourteen"),
+		FIFTEEN("Fifteen"),
+		SIXTEEN("Sixteen"),
+		SEVENTEEN("Seventeen"),
+		EIGHTEEN("Eighteen"),
+		NINETEEN("Nineteen"),
+		TWENTY("Twenty"),
 		;
 
 		@Getter
